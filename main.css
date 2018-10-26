@@ -1,0 +1,67 @@
+p{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+	background-color: #A9A9A9;
+}
+
+
+#pic{
+	width: 200px;
+	height: 200px;
+	margin: 0 1.5%;
+	float: right;
+}
+
+body{
+	line-height: 1;
+}
+
+#logo_text {
+	#font-size:10vw;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	font-size:60px;
+	line-height: 300%;
+	
+}
+
+li {
+    float: left;
+	width: 20%;
+	margin: 0 1.5%;
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+	margin: 1;
+	overflow: hidden;
+	background-color: #333333;
+	clear: both;
+}
+
+#menu li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #111111;
+}
+
+aside {
+	float: right;
+	margin: 0 1.5%;
+	width: 30%;
+}
