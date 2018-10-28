@@ -33,7 +33,7 @@ body{
 	
 }
 
-li {
+#menu li {
     float: left;
 	width: 20%;
 	margin: 0 1.5%;
@@ -60,8 +60,68 @@ li {
     background-color: #111111;
 }
 
+#recent_projects li{
+	width: 20%;
+	margin: 1.5% 1.5%;
+}
+
+#favorite_articles li{
+	width: 20%;
+	margin: 1.5% 1.5%;
+}
+
+#favorite_projects li{
+	width: 20%;
+	margin: 1.5% 1.5%;
+}
+
+.group:before, 
+.group:after{
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+.group {
+	word-wrap: break-word;
+	clear: both;
+	*zoom: 1;
+}
+section {
+	background-color: #F5F5F5;
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+	
+}
 aside {
+	background-color: #C0C0C0;
 	float: right;
 	margin: 0 1.5%;
 	width: 30%;
 }
+
+.aside_title{
+	background-color: #A9A9A9;
+	margin: 0 1.5%;
+}
+
+.section_title{
+	margin: 0 1.5%;
+}
+
+
+section p{
+	padding: 0;
+	margin: 3% 3%;
+}
+
+footer {
+	margin: 3% 0;
+	clear: both;
+	background-color: #A9A9A9;
+}
+
+
